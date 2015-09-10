@@ -1,0 +1,25 @@
+body {
+	font-family: sans-serif;
+	font-size: 18px;
+	background-color: #ffffff;
+	border-bottom: 5px solid: #222222;
+	border-bottom: 5px solid: #222222;
+	margin: 30px;
+}
+header {
+	text-align: center;
+}
+hr {
+	border-top: 2px;
+	clear: both;
+}
+
+img{
+	float: left;
+	width: 25%;
+	border: 5px #111111;
+}
+p{
+	float: left;
+	width: 75%;
+}

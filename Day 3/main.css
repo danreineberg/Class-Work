@@ -1,0 +1,24 @@
+.awesome_list li:first-child{
+	font-weight: bold;
+}
+.awesome_list li:nth-child(even){
+	color:red;
+}
+.awesome_list li:last-child{
+	color: blue;
+}
+
+a{
+	text-decoration: none;
+}
+
+a.hover {
+	font-weight: bold;
+}
+a[href^="http:"]{
+	color:orange;
+}
+
+a[href^="http:"]:hover{
+	color:orange;
+}
