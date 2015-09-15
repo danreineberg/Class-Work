@@ -1,0 +1,29 @@
+h1{
+	background: red;
+	padding: 10px;
+	border: 5px solid black;
+}
+p{
+	background: blue;
+	color: #ffffff;
+	padding: 10px;
+	border: 5px solid black;
+}
+code{
+	background: #ffffff;
+	color: black;
+	padding: 5px;
+	border: 1px solid black;
+}
+
+h2{
+	color: orange;
+	text-align: center;
+}
+ol{
+	color: yellow;
+	margin:10px;
+}
+li{
+	color:green;
+}
