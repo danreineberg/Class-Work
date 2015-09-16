@@ -1,0 +1,12 @@
+header,div,footer{
+	border: 1px solid #333333;
+}
+.float-left{
+	border: 1px solid #333333;
+	float: left;
+	width:49%;
+}
+
+footer{
+	clear: both;
+}
