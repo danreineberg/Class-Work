@@ -1,0 +1,156 @@
+body{
+	font-family: sans-serif;
+	margin: 0px;
+}
+
+header{
+	background: #000000;
+	height: 85px;
+}
+
+h1{
+	color: yellow;
+	font-family: times;
+	margin: 0px 15px;
+
+}
+
+nav{
+	float: right;
+	font-size: 14px;
+	font-style: italic;
+}
+
+li{
+	color: #ffffff;
+	list-style: none;
+	display: inline;
+	padding: 3px;
+	margin-right: 10px;
+}
+
+nav h1{
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: sans-serif;
+	display: inline;
+	margin-right: 0px;
+	font-style: normal;
+}
+
+#grey-block{
+	border-top: 2px solid yellow;
+	background: #d2d2d2;
+	height: 75px;
+	color: #000000;
+	text-align: center;
+}
+blockquote{
+	font-family: times;
+	font-size: 22px;
+	font-style: italic;
+	font-weight: bold;
+}
+#taste{
+	color: #a2a2a2;
+	text-decoration: line-through;
+}
+#are{
+	border-bottom: 1px solid yellow;
+}
+
+main{
+	background-image: url(./images/coworking.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	height: 400px;
+	margin: 0px;
+	clear: both;
+}
+
+#float-right{
+	border: 1px solid #000000;
+	float: right;
+	width: 40%;
+	background: rgba(255, 255, 255, .65);
+	height: 350px;
+	margin: 20px;
+}
+h2{
+	margin: 0px 20px;
+	padding: 20px 0px 10px 0px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+p{
+	margin: 0px 20px;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 22px;
+	padding: 0px 0px 10px 0px;
+}
+
+.button-center{
+	text-align: center;
+	padding: 20px;
+}
+
+
+#yellow-button{
+	color: #000000;
+	font-weight: bold;
+	font-size: 18px;
+	padding: 10px 25px;
+	background: yellow;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0px 2px 0px 0px #e6ca17;
+}
+#white-block{
+	clear: both;
+	width: 100%;
+	height: 250px;
+	margin: 0px;
+}
+.cta{
+	float: left;
+	width: 30%;
+	height: 250px;
+	margin: 10px;
+	border-right: 1px solid #cccccc;
+}
+
+h3{
+	margin: 0px 20px;
+	padding: 20px 0px 10px 0px;
+	font-style: italic;
+}
+
+.grey-button{
+	color: #000000;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 10px 25px;
+	background: #cccccc;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0px 2px 0px 0px #666666;
+}
+.cta:last-child{
+	border: none;
+}	
+
+footer{
+	background: #000000;
+	height: 20px;
+	width: 100%;
+	clear: both;
+	font-size: 12px;
+	color: #ffffff;
+	text-indent: 10px;
+	padding: 10px
+}
