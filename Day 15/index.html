@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<name> Forms are Fun</name>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+		<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
+
+	</head>
+
+	<body>
+		<form>
+		<legend>Your Contact Info </legend>
+		<div id = 'name'>
+			<label for = 'yourname'> Your Name (required) </label>
+			<input  type = 'text' name = 'firstname' placeholder = 'First'>
+			<input type = 'text' name = 'lastname'placeholder = 'Last'>
+		</div>	
+
+		<br>
+
+		<div id = 'phone'>
+			<label for = 'phonenumber'> Phone Number </label>
+			<input type = 'number' name = 'areacode' phoneUS placeholder = '000'>
+			<span> - </span>
+			<input type = 'number' name = 'three' maxlength = '3' placeholder = '000'>
+			<span> - </span>
+			<input type = 'number' name = 'four' maxlength = '4' placeholder = '0000'>
+		</div>
+			
+		<br>
+
+		<div id = 'address'>
+			<label for = 'address'> Address </label>
+		
+			<input type = 'text' name = 'adress1' placeholder = 'Street Address'>
+		<br>
+			<input type = 'text' name = 'address2' placeholder = 'Address Line 2'>
+		<br>
+			<input type = 'text' name = 'city' placeholder = 'City'>
+			<input type = 'text' name = 'state' placeholder = 'State'>
+			<input type = 'text' name = 'zip' placeholder = 'Postal Code'>	
+		</div>	
+
+
+		<legend> Skills & Interests </legend>
+		<label for = 'course'> Course </label>
+		<select type = 'text' name = 'course' placeholder = 'Select One'>
+			<option> Option 1</option>
+			<option> Option 2</option>
+			<option> Option 3</option>
+		</select>
+		<br>
+		<label for = 'pastexperience'> Past Experience </label>
+		<input type = 'text' name = 'pastexperience'>
+
+		<legend> Anything Else? </legend>
+		<label for = 'referral'> Referral </label>
+		<select type = 'text' name = 'referral
+		' placeholder = 'Select One'>
+			<option selected> None</option>
+			<option> Option 2</option>
+			<option> Option 3</option>
+		</select>
+		<br>
+		<label for = 'comments'> Comments </label>
+		<input type = 'text' name = 'comments'>
+
+		<div id = 'buttons'>
+			<input type = 'submit' value = 'Save Draft'>
+			<input type = 'submit' value = 'Submit'>
+		</div>
+	</form>
+
+			<script type="text/javascript"></script>
+		<script src="main.js"></script>				
+	</body>
+</html>
